@@ -64,7 +64,11 @@ button{
 }
 
 .text-white{
-    color: #fff;
+    color: #fff !important;
+}
+
+.text-blue{
+    color: blue !important;
 }
 
 .justify-content-center{
@@ -139,4 +143,6 @@ button{
     width: 100%;
 }
 /* Width End */
+
+
 
