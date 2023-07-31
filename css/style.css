@@ -6,6 +6,7 @@
     --white-color: #ffffff;
     --input-background-color: #333333;
     --active-input-background-color: #3e3e3e;
+    --faq-background-color: #2D2D2D;
     
     
 }
@@ -78,19 +79,19 @@ button a{
     font-size: 1.3rem;
 }
 
-#hero-section .input{
-    width: 500px;
+.primary-input-and-button .input{
+    width: 400px;
     
 }
 
-#hero-section .hero-text button a{
+.primary-input-and-button button a{
     font-weight: bolder;
     font-size: 22px;
 }
 
-#hero-section input{
+.primary-input-and-button input{
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(33, 33, 33, 0.5);
     font-size: 18px;
     border: none;
     outline: none;
@@ -102,7 +103,13 @@ button a{
     border: 1px solid var(--primary-color);
 }
 
-#hero-section input:focus{
+.primary-input-and-button input::placeholder{
+    color: #bebebe;
+}
+
+
+
+.primary-input-and-button input:focus{
     outline-offset: 3px;
     outline: 2px solid white;
 }
@@ -287,7 +294,37 @@ footer p{
 }
 
 
+details{
+    background: var(--faq-background-color);
+    /* padding: 1rem ; */
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: .6rem;
+    
+}
 
+details hr{
+    /* border: 1px solid black; */
+    height: 1px;
+    border: 1px solid black;
+}
+
+
+
+details summary{
+    padding: 1.5rem 1rem;
+}
+
+details p{
+    cursor: auto;
+    margin-top: .7rem;
+    padding: .5rem 1rem;
+    
+}
+
+#asked-question-para{
+    font-size: 1.3rem;
+}
 
 
 
